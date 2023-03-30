@@ -1,0 +1,195 @@
+/* 공통 */
+
+main div > .container {width:100%; margin: 0 auto;}
+
+
+/* --- */
+header {
+    background: #222; width: 100%;
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed; z-index: 500;
+    padding: 20px;
+
+}
+header h1 {}
+header h1 a {}
+header h1 a img {}
+header nav {}
+header nav a {
+    color: #fff; font-size: 1.2rem;
+    letter-spacing: -0.02em; margin-right: 20px;
+}
+header nav a:last-child {margin: 0;}
+header .lnb {
+    width:;
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+header .lnb a {display: inline;}
+header .lnb a:first-child {
+    color: #fff;
+    border: 2px solid #fff; border-radius: 5px; padding: 10px;
+    margin-right: 10px;
+}
+header .lnb a img {
+    filter: invert(1); width: 36px;
+}
+/* e:header */
+main {}
+main .visual {
+    
+    height: 800px; overflow: hidden;
+    position: relative;
+}
+main .visual .title {/* background-color: aqua; */
+    position: absolute; top: 40%; left: 50%;
+    transform: translate(-50%,-50%); z-index: 900;
+    text-align: center;
+}
+main .visual .title h1 {
+    color: #fff; font-size: 3rem; font-weight: 700; line-height: 1.4;
+    letter-spacing: -0.02em;
+    
+}
+main .visual .title a {
+    color: #fff; border: 1px solid #222; border-radius: 10px; padding: 20px 50px;
+    background: #222;
+    position: absolute; top: 150%; left: 50%; transform: translate(-50%,0); 
+}
+main .visual video {
+    /* width: auto; height: 100vn;
+    position: absolute; */
+    width: 130%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    
+    transform: translate(-50%, 0);
+}
+/* e:visual */
+main .creator {/* background-color: bisque; */
+    text-align: center; padding-top: 50px;}
+main .creator .container {
+    width: calc(100% - 30px);
+    margin: 0 auto;
+    overflow-x: hidden;
+    max-width: 1300px;
+    min-width: 320px;
+}
+main .creator .container h1 {
+    font-size: 3rem; font-weight: 700; line-height: 1.4;
+    letter-spacing: -0.02em; padding-top: 50px;
+}
+main .creator .container p {
+    font-size: 1.2rem; line-height: 1.4; letter-spacing: -0.05em;
+    padding: 20px;
+}
+main .creator .container p img {width: 100%;}
+main .creator .container ul {width: 80%; margin: 0 auto;
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-around; padding: 50px;
+}
+main .creator .container ul li {width: 32%;}
+main .creator .container ul li h2 {
+    font-size: 2.3rem; font-weight: 700;  letter-spacing: -0.02em;
+
+}
+main .creator .container ul li p {letter-spacing: -0.02em;}
+/* e:creator */
+main .world {
+    background-color:#eee; padding: 100px 0; 
+}
+main .world .container {
+    text-align: center; 
+}
+main .world .container h1 {
+    font-size: 3rem; font-weight: 700; line-height: 1.4;
+    letter-spacing: -0.02em; padding-top: 50px; 
+    margin-bottom: 30px;
+}
+main .world .container p {
+    margin-bottom: 30px; font-size: 1.2rem; letter-spacing: -0.02em;
+    line-height: 1.5;
+}
+main .world .container ul { 
+    margin: 0 auto;
+    width: calc(100% - 30px);
+    max-width: 1300px;
+    min-width: 430px;
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between;
+    
+    
+}
+main .world .container ul li {
+    background: #fff; width: 32%; padding: 50px 0;
+    border-radius: 10px;
+}
+main .world .container ul li h2 {
+    font-size: 1.8rem; line-height: 1.5; font-weight: 500;  letter-spacing: -0.02em;
+    margin-bottom: 20px;
+}
+main .world .container ul li p {
+    margin-bottom: 50px; line-height: 1.5;
+}
+main .world .container ul li a {
+    color: #fff; border: 1px solid #222; border-radius: 20px; padding: 10px 30px;
+    background: #222;
+}
+/* e:world */
+main .creatorlist {
+    /* background-color: bisque; */ padding: 100px 0;
+}
+main .creatorlist .container {width: 80%;
+    /* background-color: brown; */ text-align: center;
+}
+main .creatorlist .container h1 {
+    font-size: 3rem; font-weight: 700; line-height: 1.4;
+    letter-spacing: -0.02em; padding-top: 50px; 
+    margin-bottom: 30px;
+}
+main .creatorlist .container p {
+    margin-bottom: 30px; font-size: 1.2rem; letter-spacing: -0.02em;
+    line-height: 1.5;
+}
+main .creatorlist .container .list { margin: 0 auto;
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between;
+    width: calc(100% - 30px);
+    max-width: 1300px;
+    min-width: 430px;
+}
+main .creatorlist .container .list a {width: 19.5%;}
+main .creatorlist .container .list a img {width: 100%;}
+/* e:creatorlist */
+footer {
+    background: #eee; padding: 70px 20px;
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between;
+}
+footer .left {}
+footer .left .fnb {}
+footer .left .fnb a {margin-right: 10px;}
+footer .left .fnb a:last-child {margin: 0;}
+footer .left p {margin: 10px 0;}
+footer .right {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items:flex-start;
+}
+footer .right select {
+    border: none;
+}
+footer .right select option {}
+footer .sns {}
+footer .sns a {}
+footer .sns a img {}
+/* e:footer */
+
+
+
+

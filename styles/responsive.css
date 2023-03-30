@@ -1,0 +1,20 @@
+@media screen and (max-width:800px) {
+    main .world .container ul li:last-child {display: none;}
+    main .world .container ul li {width: 45%;}
+}
+/* 반응형_태블릿 */
+@media screen and (max-width:1024px) {
+    header nav {display: none;}
+    main .visual video {width: auto;}
+    main .creatorlist .container {width: 100%;}
+    main .creatorlist .container .list a:last-child {display: none;}
+    main .creatorlist .container .list a {width: 23%;}
+    
+}
+/* 반응형_모바일 */
+@media screen and (max-width:430px) {
+    main .creatorlist .container .list a:nth-child(4) {display: none;}
+    main .creatorlist .container .list a {width: 30%;}
+    footer .right {display: none;}
+}
+

@@ -26,9 +26,9 @@ button {cursor:pointer; border:none; background:none;}
 .awesome::before {font-weight:600;}
 fieldset {border: 0;}
 legend {display: none;}
-.lefticon::after, .lefticon::before 
+/* .lefticon::after, .lefticon::before 
 {font-weight: 600; display: inline; content: '\f053';}
 .homeicon::before 
-{font-weight: 600; display: inline; content: '\f015';}
+{font-weight: 600; display: inline; content: '\f015';} */
 
 
